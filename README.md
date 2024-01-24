@@ -10,6 +10,7 @@ In our implementation, for Org1,there are 2 users: <br/>
 
 for Org2,we have 1:<br/>
 Alice<br/>
+<br/>
 Bank is transferring the tokens using BondX to Alice to track the tokens <br/>
 
 The ERC20 token contract which is used in this implementation is Hashed Time-Lock transactions. <br/>
