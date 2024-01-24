@@ -1,5 +1,5 @@
 # HLF-ERC20-Time.Hash
-An ERC20 token contract in Hyperledger Fabric network which uses Hashed Time-Lock transactions <br/>
+An ERC20 token contract implementation in Hyperledger Fabric network which uses Hashed Time-Lock transactions <br/>
 
 This implementation consists of 2 Organisations: <br/>
 Org1 - Has the authority to do the critical activities regarding the tokens <br/>
