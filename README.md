@@ -48,7 +48,7 @@ We are using Firefly-Fabconnect for interacting with the network. <br/>
 For running :  <br/>
 cd ERC20-HTLC-HLF-Net/firefly-fabconnect <br/>
 make    #only for the initial time <br/>
-./fabconnect -f "config.json"    #in the connection profile file (ccp-1) ,bank is the user <br/>
+./fabconnect -f "config.json"       #connection profile file (ccp-1) is for ,bank user <br/>
 <br/>
 This will open a webapp (Swagger) in http://localhost:3000/api <br/>
 To run an invoke ,in /transactions <br/>
