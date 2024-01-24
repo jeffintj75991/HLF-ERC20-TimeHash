@@ -8,7 +8,7 @@ In our implementation, for Org1,there are 2 users: <br/>
 1.Bank <br/>
 2.BondX<br/>
 
-for Org1,we have 1:<br/>
+for Org2,we have 1:<br/>
 Alice<br/>
 Bank is transferring the tokens using BondX to Alice to track the tokens <br/>
 
@@ -30,7 +30,7 @@ The ERC20 contract contains the following methods: <br/>
 <br/>
 Additionally we have : <br/>
 ● GetHashTimeLock | returns the created Hash Time-Lock <br/>
-All the following methods can be run by minter only <br/>
+All the following methods can be run only by minter  <br/>
 ● TransferConditional | creates the conditional transfer from one account to another one, conditioned to hashlock + timelock  <br/>
 ● Claim | releases the lock and transfers the tokens to the "to" account <br/>
 ● Revert | releases the lock and transfers the tokens to the "from" account  <br/>
@@ -76,6 +76,6 @@ To run a query ,in /query <br/>
   "strongread": false
 }
 <br/>
-Like this we can do all the operations in the Firefly webconnect <br/>
+Like this we can do all the operations in the Firefly Fabconnect <br/>
 
 
