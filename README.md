@@ -35,6 +35,9 @@ All the following methods can be run only by minter  <br/>
 ● TransferConditional | creates the conditional transfer from one account to another one, conditioned to hashlock + timelock  <br/>
 ● Claim | releases the lock and transfers the tokens to the "to" account <br/>
 ● Revert | releases the lock and transfers the tokens to the "from" account  <br/>
+
+Chaincode is located at :  <br/>
+HLF-ERC20-TimeHash/ERC20-HTLC-HLF-Net/artifacts/src/github.com/test-erc-20/chaincode/token_contract.go  <br/>
 <br/>
 # Running the scenario
 For starting the network and deploying the chaincode: <br/>
