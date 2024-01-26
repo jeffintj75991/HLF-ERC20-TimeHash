@@ -65,6 +65,8 @@ To run an invoke ,in /transactions <br/>
   "transientMap": {},
   "init": false
 }
+
+```
 <br/>
 To run a query ,in /query <br/>
 ```json
@@ -78,6 +80,7 @@ To run a query ,in /query <br/>
   "args": [],    
   "strongread": false
 }
+```
 <br/>
 Like this we can do all the operations in the Firefly Fabconnect <br/>
 
