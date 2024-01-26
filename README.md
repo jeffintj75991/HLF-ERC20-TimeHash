@@ -52,12 +52,13 @@ make    #only for the initial time <br/>
 <br/>
 This will open a webapp (Swagger) in http://localhost:3000/api <br/>
 To run an invoke ,in /transactions <br/>
+```json
 {
   "headers": {
     "type": "SendTransaction",
     "signer": "bank",
     "channel": "mychannel",
-    "chaincode": "test-erc20-cc-3"
+    "chaincode": "test-erc20-cc-1"
   },
   "func": "Mint",
   "args": ["10"],
@@ -66,11 +67,12 @@ To run an invoke ,in /transactions <br/>
 }
 <br/>
 To run a query ,in /query <br/>
+```json
 {
   "headers": {
     "signer": "bank",
     "channel": "mychannel",
-    "chaincode": "test-erc20-cc-3"
+    "chaincode": "test-erc20-cc-1"
   },
   "func": "ClientAccountBalance",
   "args": [],    
