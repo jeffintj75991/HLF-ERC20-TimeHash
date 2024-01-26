@@ -51,7 +51,7 @@ make    #only for the initial time <br/>
 ./fabconnect -f "config.json"       #connection profile file (ccp-1) is for ,bank user <br/>
 <br/>
 This will open a webapp (Swagger) in http://localhost:3000/api <br/>
-To run an invoke ,in /transactions <br/>
+To run an invoke ,use /transactions <br/>
 ```json
 {
   "headers": {
@@ -69,7 +69,7 @@ To run an invoke ,in /transactions <br/>
 ```
 <br/>
 
-To run a query ,in /query <br/>
+To run a query ,use /query <br/>
 
 
 ```json
