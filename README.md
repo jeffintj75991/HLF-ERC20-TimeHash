@@ -71,7 +71,9 @@ To run an invoke ,in /transactions <br/>
 
 To run a query ,in /query <br/>
 
+
 ```json
+
 {
   "headers": {
     "signer": "bank",
@@ -82,6 +84,7 @@ To run a query ,in /query <br/>
   "args": [],    
   "strongread": false
 }
+
 ```
 <br/>
 Like this we can do all the operations in the Firefly Fabconnect <br/>
